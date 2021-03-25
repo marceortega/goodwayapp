@@ -24,6 +24,7 @@ import mapStyles from "./mapStyles";
 import { formatRelative } from "date-fns";
 import Tarjet from "../src/Tarjet.js";
 import bus from "../src/assets/bus.png";
+import credentials from "./credentials";
 
 const libraries = ["places"];
 const mapContainerStyle = {
@@ -44,7 +45,7 @@ const center = {
 
 function App() {
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: "AIzaSyCpinY8TbKqlmzctEyo-l8f1Ezgc3cBUD4",
+    googleMapsApiKey: credentials.mapsKey,
     libraries,
   });
 
