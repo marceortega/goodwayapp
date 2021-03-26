@@ -24,6 +24,8 @@ import mapStyles from "./mapStyles";
 import { formatRelative } from "date-fns";
 import Tarjet from "../src/Tarjet.js";
 import bus from "../src/assets/bus.png";
+import compass from "../src/assets/compass.svg";
+//import bus2 from "../src/assets/bus2.png";
 import credentials from "./credentials";
 
 const libraries = ["places"];
@@ -113,7 +115,8 @@ function App() {
             key={marker.time.toISOString()}
             position={{ lat: marker.lat, lng: marker.lng }}
             icon={{
-              url: `/bus2.png`,
+              
+              // url: `/bus2.png`,
               origin: new window.google.maps.Point(0, 0),
               anchor: new window.google.maps.Point(15, 15),
               scaledSize: new window.google.maps.Size(50, 50),
@@ -160,7 +163,7 @@ function Locate({ panTo }) {
         );
       }}
     >
-      <img src="/compass.svg" alt="compass" />
+      <img src={compass} alt="compass" />
     </button>
   );
 }

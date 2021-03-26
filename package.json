@@ -1,4 +1,5 @@
 {
+  "homepage":"https://marceortega.github.io/goodwayapp",
   "name": "proyect-good-way-app",
   "version": "0.1.0",
   "private": true,
@@ -19,8 +20,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
-    
+    "eject": "react-scripts eject",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -42,6 +44,7 @@
   },
   "devDependencies": {
     "@iconify/icons-ant-design": "^1.1.0",
-    "@iconify/react": "^1.1.4"
+    "@iconify/react": "^1.1.4",
+    "gh-pages": "^3.1.0"
   }
 }

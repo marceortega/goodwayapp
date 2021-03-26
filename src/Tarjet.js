@@ -5,7 +5,7 @@ import iman from "../src/assets/iman.png";
 import walk from "../src/assets/walk.png";
 import drive from "../src/assets/drive.png";
 import transp from "../src/assets/transp.png";
-import { Icon, InlineIcon } from "@iconify/react";
+import { Icon } from "@iconify/react";
 import heartFilled from "@iconify/icons-ant-design/heart-filled";
 import "./Tarjet.css";
 
@@ -98,6 +98,7 @@ const Tarjet = () => {
               className=" mt-1 d-flex justify-content-center textButton"
               href="https://www.consiliumbots.com/"
               target="_blank"
+              rel="noreferrer"
             >
               {" "}
               EXPLORE SCHOOL
