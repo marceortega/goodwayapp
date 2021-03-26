@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/goodwayapp/static/css/main.8c9e843f.chunk.css",
-    "main.js": "/goodwayapp/static/js/main.523b92df.chunk.js",
-    "main.js.map": "/goodwayapp/static/js/main.523b92df.chunk.js.map",
+    "main.js": "/goodwayapp/static/js/main.9d866996.chunk.js",
+    "main.js.map": "/goodwayapp/static/js/main.9d866996.chunk.js.map",
     "runtime-main.js": "/goodwayapp/static/js/runtime-main.c61ac44f.js",
     "runtime-main.js.map": "/goodwayapp/static/js/runtime-main.c61ac44f.js.map",
     "static/js/2.f56091f0.chunk.js": "/goodwayapp/static/js/2.f56091f0.chunk.js",
@@ -13,12 +13,13 @@
     "static/css/main.8c9e843f.chunk.css.map": "/goodwayapp/static/css/main.8c9e843f.chunk.css.map",
     "static/js/2.f56091f0.chunk.js.LICENSE.txt": "/goodwayapp/static/js/2.f56091f0.chunk.js.LICENSE.txt",
     "static/media/bus.7205b893.png": "/goodwayapp/static/media/bus.7205b893.png",
+    "static/media/compass.285cfa08.svg": "/goodwayapp/static/media/compass.285cfa08.svg",
     "static/media/school.ab6a360d.png": "/goodwayapp/static/media/school.ab6a360d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c61ac44f.js",
     "static/js/2.f56091f0.chunk.js",
     "static/css/main.8c9e843f.chunk.css",
-    "static/js/main.523b92df.chunk.js"
+    "static/js/main.9d866996.chunk.js"
   ]
 }
